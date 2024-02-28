@@ -1,11 +1,10 @@
-import './App.css';
+import React from 'react';
+import Zubereitung from './Zubereitung';
+import {useState, useEffect} from "react";
 
-import Single_post from "./components/single_post/Single_post";
-
-
-function Zubereitung() {
+function Zubereitungschritte() {
   return (
-    <div id="Zubereitung">
+    <div id="Zubereitungschritte">
       <h2>"Zubereitung"</h2>
         <Single_post></Single_post>
       <ol>
