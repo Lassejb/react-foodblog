@@ -18,4 +18,3 @@ function Zubereitungschritte() {
   );
 }
 
-export default App;
