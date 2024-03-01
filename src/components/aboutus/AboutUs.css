@@ -1,0 +1,22 @@
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-us-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-content {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  .about-us-content p {
+    margin-bottom: 15px;
+  }
+  
