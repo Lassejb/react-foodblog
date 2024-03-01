@@ -5,6 +5,8 @@ import Overview from './components/overview/Overview';
 import Single_post from './components/single_post/Single_post';
 import AboutUs from './components/aboutus/AboutUs';
 import Recipes from './components/recipes/Recipes';
+import Zutatenliste from "./components/Zutatenliste/Zutatenliste";
+
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/recipes/single_post" element={<Single_post />} />
         </Routes>
+        <h1 className ="max-w-xl m-auto bg-organge-100 mt-20">
+          <Zutatenliste />
+        </h1>
       </div>
     </Router>
   );
