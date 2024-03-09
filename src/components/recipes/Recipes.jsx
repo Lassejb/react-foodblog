@@ -9,7 +9,7 @@ const Recipes = () => {
             <p className="recipes-content">
                 Hier sind einige köstliche Rezepte, die du ausprobieren kannst!
             </p>
-            <Link to="/recipes/single_post">
+            <Link to="/recipes/single_post/">
                 <button className="btn">Zu den Rezepten</button>
             </Link>
         </div>

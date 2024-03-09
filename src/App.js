@@ -20,7 +20,7 @@ function App() {
           <Route path="/recipes/single_post" element={<Single_post />} />
         </Routes>
         <h1 className ="max-w-xl m-auto bg-organge-100 mt-20">
-          <Zutatenliste />
+        
         </h1>
       </div>
     </Router>
