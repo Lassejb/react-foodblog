@@ -20,6 +20,9 @@ export default function Single_post() {
           <h1 className="single_post_title">{jsonData[id].title}</h1>
           <p className="single_post_text">{jsonData[id].content}</p>
         </div>
+        <div>
+          <Zubereitung />
+        </div>
       </div>
     </div>
   );

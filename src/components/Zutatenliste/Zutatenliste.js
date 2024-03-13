@@ -33,7 +33,7 @@ const Zutatenliste = () => {
       </div>
       {Zutaten.map((item, index) => {
         return (
-          <Zutaten 
+          <Zutaten
             description={item.description} 
             done={item.done}>
             key=(index)

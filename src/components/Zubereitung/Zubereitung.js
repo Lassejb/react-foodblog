@@ -8,24 +8,16 @@ const zubereitungsschritte = [
   "Herausnehmen und servieren"
 ];
 
-function zubereitungsschritte() {
-  return 
-    <div>
+
+function Zubereitungschritte() {
+  return (
+    <div id="Zubereitungschritte">
       <h2>Zubereitung</h2>
       <ol>
         {zubereitungsschritte.map((schritt, index) => (
           <li key={index}>{schritt}</li>
         ))}
       </ol>
-    </div>
-  ;
-}
-
-function Zubereitungschritte() {
-  return (
-    <div id="Zubereitungschritte">
-      <h2>Zubereitung</h2>
-      <Zubereitung zubereitungsschritte={zubereitungsschritte} />
     </div>
   );
 }
