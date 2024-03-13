@@ -1,20 +1,13 @@
 import React from 'react';
+import jsonData from "../../assets/text.json";
 
-const zubereitungsschritte = [
-  "Den Backofen auf 180 Grad vorheizen",
-  "Die Knoblauchbutter vorbereiten, indem Sie die weiche Butter, behackten Knoblauch, Petersilie und Salz vermischen",
-  "Die Brötchen halbieren und die Knoblauchbutter großzügig auf beiden Seiten verteilen",
-  "Die Brötchen für etwa 10 Minuten im vorgeheizten Backofen backen, bis sie goldbraun sind",
-  "Herausnehmen und servieren"
-];
-
-
-function Zubereitungschritte() {
+function Zubereitungschritte({ value }) {
+  const Schritte = jsonData[value].Zubereitung;
   return (
     <div id="Zubereitungschritte">
       <h2>Zubereitung</h2>
       <ol>
-        {zubereitungsschritte.map((schritt, index) => (
+        {Schritte.map((schritt, index) => (
           <li key={index}>{schritt}</li>
         ))}
       </ol>
