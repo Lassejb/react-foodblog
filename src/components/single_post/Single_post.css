@@ -15,12 +15,13 @@
 }
 
 .single_post_Image {
-    width: 700px;
-   height: 700px;
-   object-fit: scale-down;
-   float: left;
-   margin-right: 2px;
-   max-width: 100%;
+    width: 800px;
+    height: 800px;
+    object-fit: cover;
+    border-radius: 5px;
+    float: left;
+    margin-right: 2px;
+    max-width: 100%;
 }
 
 .single_post_title {
