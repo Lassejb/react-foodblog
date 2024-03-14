@@ -6,7 +6,10 @@
     "Zubereitung": [
       "Den Backofen auf 180 Grad vorheizen",
       "Die Knoblauchbutter vorbereiten, indem Sie die weiche Butter, behackten Knoblauch, Petersilie und Salz vermischen",
-      "Fiat"
+      "Die Brötchen halbieren und die Knoblauchbutter großzügig auf beiden Seiten verteilen",
+      "Die Brötchen für etwa 10 Minuten im vorgeheizten Backofen backen, bis sie goldbraun sind",
+      "Herausnehmen und servieren."
+];
     ],
     "Zutaten": "ZUTATEN",
     "picture": "PICTURE_PATH"
@@ -16,9 +19,9 @@
     "title": "Test_text_2",
     "content": "Fusce quis lacus sit amet orci blandit pellentesque eu sit amet ligula. Maecenas ultricies dolor interdum faucibus tincidunt. Cras pellentesque scelerisque ante. Aenean venenatis sed ipsum eu pellentesque. In interdum mi nec finibus varius. Integer eu justo vulputate quam molestie cursus. Duis sed ligula ac purus condimentum posuere sed ac sem. Nam eu neque consequat lectus scelerisque placerat. Nunc feugiat suscipit magna, sed egestas nibh maximus nec. ",
     "Zubereitung": [
-      "Den Backofen auf 180 Grad vorheizen",
-      "Die Knoblauchbutter vorbereiten, indem Sie die weiche Butter, behackten Knoblauch, Petersilie und Salz vermischen",
-      "Fiat"
+      "Zwiebeln, Karotte und Kartoffeln in mundgerechte Stücke schneiden",
+      "Öl in einen Heißen Topf geben,Like Chicken bei mittlerer bis hoher Hitze unter häufigem Rühren 2 Minuten unter Rühren rösten. Gemüse dazugeben, mit der Kokosmilch und 200 ml Wasser ablöschen, aufkochenund bei niedriger bis mittlere Hitze mit Deckel 15 Minuten köcheln lassen. Like Chicken zurück in den Topf geben und weitere 5 Minuten ziehen lasen.",
+      "Mit Koriander toppen und mit Jasminreis servieren."
     ],
     "Zutaten": "ZUTATEN",
     "picture": "PICTURE_PATH"
@@ -28,9 +31,10 @@
     "title": "Test_text_3",
     "content": "test Nullam maximus ipsum tortor, vel vulputate augue ullamcorper eget. Suspendisse interdum in sem vitae tristique. Aliquam erat volutpat. Praesent venenatis nec leo ut venenatis. Morbi egestas nunc vel vehicula vehicula. Quisque nec pulvinar justo. Praesent et justo varius, varius lectus ut, tincidunt lectus. Nullam ullamcorper mauris a erat pretium gravida. ",
     "Zubereitung": [
-      "Den Backofen auf 180 Grad vorheizen",
-      "Die Knoblauchbutter vorbereiten, indem Sie die weiche Butter, behackten Knoblauch, Petersilie und Salz vermischen",
-      "Fiat"
+      "Kartoffeln, Möhren und Sellerie waschen, putzen, schälen und in 1,5 cm große Stücke schneiden. Zwiebeln abziehen und würfeln, Knoblauch abziehen und hacken. Petersilie abbrausen, trockenschütteln und hacken.",
+      "Pflanzenöl in einem großen Topf erhitzen. Zwiebelwürfel und Knoblauch darin etwa 2-3 Minuten anbraten, anschließend restliches Gemüse hinzufügen und kurz unter Wenden mitbraten. Gemüse mit der Gemüsebrühe ablöschen und einmal aufkochen lassen. Lorbeerblätter hinzufügen und bei mittlerer Hitze und geschlossenem Deckel 20 Minuten köcheln lassen.",
+      "Lorbeerblätter aus der Suppe nehmen. Eine Hälfte des gekochten Gemüses in eine Schüssel umfüllen, das übrig gebliebene Gemüse mit einem Stabmixer fein pürieren. Das nicht pürierte Gemüse wieder in den Suppentopf geben und leicht erhitzen.",
+      "Kartoffelsuppe mit Pfeffer, Muskatnuss und wenig Salz abschmecken und die Hälfte der Petersilie einrühren. Suppe auf 4 Teller verteilen, mit der restlichen Petersilie bestreuen und mit dem Vollkornbrot servieren.",
     ],
     "Zutaten": "ZUTATEN",
     "picture": "PICTURE_PATH"
@@ -40,9 +44,9 @@
     "title": "Bolognese",
     "content": "BESCHREIBUNG",
     "Zubereitung": [
-      "Den Backofen auf 180 Grad vorheizen",
-      "Die Knoblauchbutter vorbereiten, indem Sie die weiche Butter, behackten Knoblauch, Petersilie und Salz vermischen",
-      "Fiat"
+      "Karotte und Sellerie putzen, schälen und fein würfeln. Zwiebel und Knoblauch schälen und fein hacken.",
+      "Olivenöl in einem Topf erhitzen. Zwiebel Knoblauch und Hackfleisch zugeben und 5-8 Minuten bei starker Hitze anbraten. Gemüsewürfel hinzugeben und 2-3 Minuten anbraten. Tomatenmark einrühren kurz mitrösten und Brühe und Rotwein angießen. Mit Salz und Pfeffer würzen und die stückigen Tomaten einrühren. Etwa 1 Stunde unter gelegentlichem Rühren köcheln lassen.",
+      "Kurz vor Ende der Garzeit Nudeln nach Packungsanleitung in reichlich kochendem Salzwasser al dente garen, in ein Sieb abgießen und abtropfen lassen. Basilikum waschen, trocken schütteln und Blättchen abzupfen. Nudeln auf Teller verteilen, Sauce darüber geben, mit Basilikum garnieren und Parmesan darüber reiben. Sofort servieren.",
     ],
     "Zutaten": "ZUTATEN",
     "picture": "PICTURE_PATH"
