@@ -27,18 +27,10 @@ export default function Single_post() {
           <p className="single_post_zutaten">{jsonData[id].zutaten}</p>
         </div>
         <div>
-<<<<<<< HEAD
         <Suspense fallback={<div>Loading...</div>}>
-          <Zubereitung value={id} />
           <Zutatenliste/>
+          <Zubereitung value={id} />
         </Suspense>
-        </div>
-        <div>
-=======
-          <Suspense fallback={<div>Loading...</div>}>
-            <Zubereitung value={id} />
-          </Suspense>
->>>>>>> d361dc7eb956bcde4e86cd72d571d122565911a3
         </div>
         <div></div>
       </div>
