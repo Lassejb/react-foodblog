@@ -13,11 +13,12 @@ const Zubereitung = lazy(() => import("../Zubereitung/Zubereitung"));
 
 export default function Single_post() {
   const { id } = useParams();
+  console.log(jsonData[id].picture)
   return (
     <div className="Single_post">
       <div className="single_post_Box">
         <div className="image_container">
-          <img src={placeholder_image} alt="" className="single_post_Image" />
+          <img src={jsonData[id].picture} alt="" className="single_post_Image" />
         </div>
         <div>
           <h1 className="single_post_title">{jsonData[id].title}</h1>
