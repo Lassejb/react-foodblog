@@ -21,6 +21,7 @@ export default function Single_post() {
         <div>
           <h1 className="single_post_title">{jsonData[id].title}</h1>
           <p className="single_post_text">{jsonData[id].content}</p>
+          <p className="single_post_zutaten">{jsonData[id].zutaten}</p>
         </div>
         <div>
         <Suspense fallback={<div>Loading...</div>}>

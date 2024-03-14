@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "title": "Test_text_1",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae posuere tellus. Etiam eu leo et ex rhoncus imperdiet. Sed consectetur, urna ac varius tincidunt, lectus turpis mollis dui, ut dignissim ante nibh ac mi. Sed iaculis, lorem in rutrum finibus, arcu sapien consectetur enim, eu elementum erat ex vulputate mauris. Maecenas elementum purus nec dui malesuada ornare. Aenean iaculis dolor eu nisi facilisis, in tincidunt enim dictum. Nulla facilisi. Ut finibus rhoncus risus eget interdum. Proin vitae arcu lectus. Etiam non sollicitudin dui, bibendum condimentum nulla. ",
+    "title": "Vegane Knoblauchbrötchen",
+    "content": "Vegane Knoblauchbrötchen sind der Knaller und perfekt für ein schnelles und einfaches Abendessen oder als Beilage für eine vegane Mahlzeit. Gott sei Dank gibt es Dosenbrötchen! Dank diesen ist die Zubereitung dieser köstlichen Brötchen schneller und einfacher als den Hefeteig hierfür selbst zu machen. ",
     "Zubereitung": [
       "Den Backofen auf 180 Grad vorheizen",
       "Die Knoblauchbutter vorbereiten, indem Sie die weiche Butter, behackten Knoblauch, Petersilie und Salz vermischen",
@@ -11,44 +11,86 @@
       "Herausnehmen und servieren."
 
     ],
-    "Zutaten": "ZUTATEN",
-    "picture": "PICTURE_PATH"
+    "Zutaten": [
+      "6 Sonntagsbrötchen aus der Dose",
+      "4 Knoblauchzehen",
+      "1 handvoll Petersilie",
+      "2 Stängel Rosmarin",
+      "5 EL Olivenöl",
+      "2 Prisen Salz, Pfeffer und Chili"
+    ],
+    "picture": "pexels-karolina-grabowska-4197437.jpg"
   },
   {
     "id": 2,
-    "title": "Test_text_2",
-    "content": "Fusce quis lacus sit amet orci blandit pellentesque eu sit amet ligula. Maecenas ultricies dolor interdum faucibus tincidunt. Cras pellentesque scelerisque ante. Aenean venenatis sed ipsum eu pellentesque. In interdum mi nec finibus varius. Integer eu justo vulputate quam molestie cursus. Duis sed ligula ac purus condimentum posuere sed ac sem. Nam eu neque consequat lectus scelerisque placerat. Nunc feugiat suscipit magna, sed egestas nibh maximus nec. ",
+    "title": "Veganes Thai-Curry",
+    "content": "Extra-cremig, im Vergleich zum roten und grünen Thai-Curry milder und in maximal einer halben Stunde stehts auch schon auf dem Tisch. Das ist unser veganes gelbes Thai-Curry mit veganem „Hühnchen“. Könnte dein neues „Go-To-Curry“ werden, ich habe da so ein Gefühl.",
     "Zubereitung": [
       "Zwiebeln, Karotte und Kartoffeln in mundgerechte Stücke schneiden",
       "Öl in einen Heißen Topf geben,Like Chicken bei mittlerer bis hoher Hitze unter häufigem Rühren 2 Minuten unter Rühren rösten. Gemüse dazugeben, mit der Kokosmilch und 200 ml Wasser ablöschen, aufkochenund bei niedriger bis mittlere Hitze mit Deckel 15 Minuten köcheln lassen. Like Chicken zurück in den Topf geben und weitere 5 Minuten ziehen lasen.",
       "Mit Koriander toppen und mit Jasminreis servieren."
     ],
-    "Zutaten": "ZUTATEN",
-    "picture": "PICTURE_PATH"
+    "Zutaten": [
+      "2 Zwiebeln",
+      "225 g Kartoffel",
+      "2 EL Erdnussöl",
+      "1-2 Pakete Like Chicken",
+      "3 EL Currypaste",
+      "400 ml Kokosmilch",
+      "15 g Koriander"
+    ],
+    "picture": "thai-green-curry-2169631_1280.jpg"
   },
   {
     "id": 3,
-    "title": "Test_text_3",
-    "content": "test Nullam maximus ipsum tortor, vel vulputate augue ullamcorper eget. Suspendisse interdum in sem vitae tristique. Aliquam erat volutpat. Praesent venenatis nec leo ut venenatis. Morbi egestas nunc vel vehicula vehicula. Quisque nec pulvinar justo. Praesent et justo varius, varius lectus ut, tincidunt lectus. Nullam ullamcorper mauris a erat pretium gravida. ",
+    "title": "Kartoffelsuppe",
+    "content": "Unsere vegetarische Kartoffelsuppe steckt voll mit gesundem Gemüse, welches zur aromatischen Würze beiträgt. Halb püriert mit etwas Schmand obendrauf schmeckt sie uns am allerbesten!",
     "Zubereitung": [
       "Kartoffeln, Möhren und Sellerie waschen, putzen, schälen und in 1,5 cm große Stücke schneiden. Zwiebeln abziehen und würfeln, Knoblauch abziehen und hacken. Petersilie abbrausen, trockenschütteln und hacken.",
       "Pflanzenöl in einem großen Topf erhitzen. Zwiebelwürfel und Knoblauch darin etwa 2-3 Minuten anbraten, anschließend restliches Gemüse hinzufügen und kurz unter Wenden mitbraten. Gemüse mit der Gemüsebrühe ablöschen und einmal aufkochen lassen. Lorbeerblätter hinzufügen und bei mittlerer Hitze und geschlossenem Deckel 20 Minuten köcheln lassen.",
       "Lorbeerblätter aus der Suppe nehmen. Eine Hälfte des gekochten Gemüses in eine Schüssel umfüllen, das übrig gebliebene Gemüse mit einem Stabmixer fein pürieren. Das nicht pürierte Gemüse wieder in den Suppentopf geben und leicht erhitzen.",
-      "Kartoffelsuppe mit Pfeffer, Muskatnuss und wenig Salz abschmecken und die Hälfte der Petersilie einrühren. Suppe auf 4 Teller verteilen, mit der restlichen Petersilie bestreuen und mit dem Vollkornbrot servieren.",
+      "Kartoffelsuppe mit Pfeffer, Muskatnuss und wenig Salz abschmecken und die Hälfte der Petersilie einrühren. Suppe auf 4 Teller verteilen, mit der restlichen Petersilie bestreuen und mit dem Vollkornbrot servieren."
     ],
-    "Zutaten": "ZUTATEN",
-    "picture": "PICTURE_PATH"
+    "Zutaten": [
+      "1.000 g Kartoffeln",
+      "2 Möhren",
+      "300 g Knollensellerie",
+      "2 Zwiebel",
+      "2 Knoblauchzehen",
+      "1 Bd. Petersilie",
+      "2 EL Rapsöl",
+      "1 L Gemüsebrühe",
+      "2 Lorbeerblätter",
+      "Pfeffer, Salz und Muskatnuss"
+    ],
+    "picture": "outback-steakhouse-2490458_1280.jpg"
   },
   {
     "id": 4,
     "title": "Bolognese",
-    "content": "BESCHREIBUNG",
+    "content": [
+      "Gesund, weil:",
+      "Hier kommt eine smarte Spaghetti Bolo auf den Tisch: Rinderhackfleisch ist eine super Quelle für Eiweiß, Zink und Eisen. Möhre, Sellerie, Tomate und Co. sorgen nicht nur für den runden Geschmack, sondern halten uns mit Betacarotin, Terpenen und Lycopin fit. Und zu guter Letzt machen die Spaghetti dank der Ballaststoffe aus dem Vollkorn-Hartweizengrieß noch ordentlich satt."
+  ],
     "Zubereitung": [
       "Karotte und Sellerie putzen, schälen und fein würfeln. Zwiebel und Knoblauch schälen und fein hacken.",
       "Olivenöl in einem Topf erhitzen. Zwiebel Knoblauch und Hackfleisch zugeben und 5-8 Minuten bei starker Hitze anbraten. Gemüsewürfel hinzugeben und 2-3 Minuten anbraten. Tomatenmark einrühren kurz mitrösten und Brühe und Rotwein angießen. Mit Salz und Pfeffer würzen und die stückigen Tomaten einrühren. Etwa 1 Stunde unter gelegentlichem Rühren köcheln lassen.",
-      "Kurz vor Ende der Garzeit Nudeln nach Packungsanleitung in reichlich kochendem Salzwasser al dente garen, in ein Sieb abgießen und abtropfen lassen. Basilikum waschen, trocken schütteln und Blättchen abzupfen. Nudeln auf Teller verteilen, Sauce darüber geben, mit Basilikum garnieren und Parmesan darüber reiben. Sofort servieren.",
+      "Kurz vor Ende der Garzeit Nudeln nach Packungsanleitung in reichlich kochendem Salzwasser al dente garen, in ein Sieb abgießen und abtropfen lassen. Basilikum waschen, trocken schütteln und Blättchen abzupfen. Nudeln auf Teller verteilen, Sauce darüber geben, mit Basilikum garnieren und Parmesan darüber reiben. Sofort servieren."
     ],
-    "Zutaten": "ZUTATEN",
-    "picture": "PICTURE_PATH"
+    "Zutaten": [
+      "1 Möhre",
+      "50 g Knollensellerie",
+      "1 Zwiebel",
+      "1 Knoblauchzehe",
+      "2 EL Olivenöl",
+      "400 g Rinderhackfleisch",
+      "1 EL Tomatenmark",
+      "150 ml Fleischbrühe",
+      "100 ml trockener Rotwein",
+      "400 g stückige Tomaten",
+      "400 g Spaghetti",
+      "Salz und Pfeffer"
+    ],
+    "picture": "spaghetti-787048_1280.jpg"
   }
 ]
