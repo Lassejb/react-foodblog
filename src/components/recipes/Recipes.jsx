@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import jsonData from "../../assets/text.json";
 import "./Recipes.css";
 
 const Recipes = () => {
@@ -9,21 +10,14 @@ const Recipes = () => {
       <p className="recipes-content">
         Hier sind einige köstliche Rezepte, die du ausprobieren kannst!
       </p>
-      <Link to="/recipes/single_post/0">
-        <button className="btn">Vegane Knoblauchbrötchen</button>
-      </Link>
-      <p/>
-      <Link to="/recipes/single_post/1">
-        <button className="btn">Veganes Thai-Curry</button>
-      </Link>
-      <p/>
-      <Link to="/recipes/single_post/2">
-        <button className="btn">Kartoffelsuppe</button>
-      </Link>
-      <p/>
-      <Link to="/recipes/single_post/3">
-        <button className="btn">Spaghetti Bolognese</button>
-      </Link>
+      {jsonData.map((recipe, index) => (
+        <Link key={recipe.id} to={`/recipes/single_post/${index}`}>
+          <div className="recipe-card">
+            <img src={recipe.picture} alt={recipe.title} className="recipe-image" />
+            <h3 className="recipe-title">{recipe.title}</h3>
+          </div>
+        </Link>
+      ))}
     </div>
   );
 };

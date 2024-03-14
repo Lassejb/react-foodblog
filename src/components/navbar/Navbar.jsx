@@ -13,7 +13,7 @@ const Navbar = () => {
                     <Link to="/recipes">Rezepte</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/about-us">Über Uns</Link>
+                    <Link to="/about-us">Über uns</Link>
                 </li>
             </ul>
         </div>
