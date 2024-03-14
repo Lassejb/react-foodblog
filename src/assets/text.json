@@ -18,7 +18,7 @@
       {"name": "5 EL Olivenöl", "done": false},
       {"name": "2 Prisen Salz, Pfeffer und Chili", "done": false}
     ],
-    "picture": "pexels-karolina-grabowska-4197437.jpg"
+    "picture": "/images/pexels-karolina-grabowska-4197437.jpg"
   },
   {
     "id": 2,
@@ -38,7 +38,7 @@
       {"name": "400 ml Kokosmilch", "done": false},
       {"name": "15 g Koriander", "done": false}
     ],
-    "picture": "thai-green-curry-2169631_1280.jpg"
+    "picture": "/images/thai-green-curry-2169631_1280.jpg"
   },
   {
     "id": 3,
@@ -62,7 +62,7 @@
       {"name": "2 Lorbeerblätter", "done": false},
       {"name": "Pfeffer, Salz und Muskatnuss", "done": false}
     ],
-    "picture": "outback-steakhouse-2490458_1280.jpg"
+    "picture": "/images/outback-steakhouse-2490458_1280.jpg"
   },
   {
     "id": 4,
@@ -90,6 +90,6 @@
       {"name": "400 g Spaghetti", "done": false},
       {"name": "Salz und Pfeffer", "done": false}
     ],
-    "picture": "spaghetti-787048_1280.jpg"
+    "picture": "/images/spaghetti-787048_1280.jpg"
   }
 ]

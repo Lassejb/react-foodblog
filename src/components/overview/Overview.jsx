@@ -32,7 +32,7 @@ const Overview = () => {
                         <img src={spaghettiImage} alt="Spaghetti" />
                     </div>
                     <div className="text-info">
-                        <h2>Lecker und Gesund</h2>
+                        <h2>Lecker und gesund</h2>
                         <p>
                             Genieße gesunde und schmackhafte Gerichte, die deine Sinne verführen und den Körper mit wertvollen Nährstoffen versorgen. Unsere Rezepte sind nicht nur köstlich, sondern auch gut für die Gesundheit.
                         </p>
