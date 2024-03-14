@@ -3,6 +3,7 @@ import "./Single_post.css";
 import { useParams } from "react-router-dom";
 
 import Zutatenliste from "../Zutatenliste/Zutatenliste";
+import Zutaten from "../Zutatenliste/Zutaten";
 
 import placeholder_image from "../../assets/placeholder.jpg";
 import jsonData from "../../assets/text.json";
@@ -27,6 +28,8 @@ export default function Single_post() {
         <Suspense fallback={<div>Loading...</div>}>
           <Zubereitung value={id} />
         </Suspense>
+        </div>
+        <div>
         </div>
       </div>
     </div>
