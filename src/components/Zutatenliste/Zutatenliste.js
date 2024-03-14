@@ -1,42 +1,40 @@
-import React from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import Zutaten from './Zutaten';
-import {useState, useEffect} from "react";
-
-
-const allZutaten = [
-  {"description": "3 Zwiebeln", done: false},
-  {"description": "500g Nudeln", done: true},
-  {"description": "200g passierte Tomaten", done: false}
-];
-
+import textData from 'C:/Users/lenas/Documents/LENA/Uni/Semester 3/BSI 1/Ordner/react-foodblog/src/assets/text.json';
 
 const Zutatenliste = () => {
-  const [Zutaten, setZutaten] = useState(allZutaten);
-  const [opencount, countOpenZutaten] = useState(0); 
-
-  const countOpen = () => {
-    const doneZutaten = Zutaten.filter((item) => {
-      return !item.done
-    });
-    countOpenZutaten(doneZutaten.length);
-  };
+  const [zutaten, setZutaten] = useState([]);
+  
+  const countOpen = useCallback(() => {
+    return zutaten.filter(item => !item.done).length;
+  }, [zutaten]);
 
   useEffect(() => {
-    countOpen(); 
-  }, [opencount]);
+    const fetchZutaten = async () => {
+      try {
+        const zutatenData = await fetch(textData);
+        const zutatenJson = await zutatenData.json();
+        setZutaten(zutatenJson);
+      } catch (error) {
+        console.error('Fehler beim Laden der Zutaten:', error);
+      }
+    };
+
+    fetchZutaten();
+  }, []);
 
   return (
     <div className ="shadow-sm hover:shadow-lg">
       <div className = "text-center bg-orange-300 text-3xl py-4 font-semibold">
         <h1>Zutatencheck:</h1>
-        <h2>Noch benötigte Zutaten: {opencount}</h2>
+        <h2>Noch benötigte Zutaten: {countOpen()}</h2>
       </div>
-      {Zutaten.map((item, index) => {
+      {zutaten.map((item, index) => {
         return (
           <Zutaten
+            key={index}
             description={item.description} 
             done={item.done}>
-            key=(index)
           </Zutaten>
         )
       })}
@@ -46,3 +44,4 @@ const Zutatenliste = () => {
 }
 
 export default Zutatenliste;
+

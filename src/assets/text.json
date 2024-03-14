@@ -10,13 +10,13 @@
       "Die Brötchen für etwa 10 Minuten im vorgeheizten Backofen backen, bis sie goldbraun sind",
       "Herausnehmen und servieren."
     ],
-    "Zutaten": [
-      "6 Sonntagsbrötchen aus der Dose",
-      "4 Knoblauchzehen",
-      "1 handvoll Petersilie",
-      "2 Stängel Rosmarin",
-      "5 EL Olivenöl",
-      "2 Prisen Salz, Pfeffer und Chili"
+    "Zutate1": [
+      {"name": "6 Sonntagsbrötchen aus der Dose", "done": false},
+      {"name": "4 Knoblauchzehen", "done": false},
+      {"name": "1 handvoll Petersilie", "done": false},
+      {"name": "2 Stängel Rosmarin", "done": false},
+      {"name": "5 EL Olivenöl", "done": false},
+      {"name": "2 Prisen Salz, Pfeffer und Chili", "done": false}
     ],
     "picture": "pexels-karolina-grabowska-4197437.jpg"
   },
@@ -29,14 +29,14 @@
       "Öl in einen Heißen Topf geben,Like Chicken bei mittlerer bis hoher Hitze unter häufigem Rühren 2 Minuten unter Rühren rösten. Gemüse dazugeben, mit der Kokosmilch und 200 ml Wasser ablöschen, aufkochenund bei niedriger bis mittlere Hitze mit Deckel 15 Minuten köcheln lassen. Like Chicken zurück in den Topf geben und weitere 5 Minuten ziehen lasen.",
       "Mit Koriander toppen und mit Jasminreis servieren."
     ],
-    "Zutaten": [
-      "2 Zwiebeln",
-      "225 g Kartoffel",
-      "2 EL Erdnussöl",
-      "1-2 Pakete Like Chicken",
-      "3 EL Currypaste",
-      "400 ml Kokosmilch",
-      "15 g Koriander"
+    "Zutate2": [
+      {"name": "2 Zwiebeln", "done": false},
+      {"name": "225 g Kartoffel", "done": false},
+      {"name": "2 EL Erdnussöl", "done": false},
+      {"name": "1-2 Pakete Like Chicken", "done": false},
+      {"name": "3 EL Currypaste", "done": false},
+      {"name": "400 ml Kokosmilch", "done": false},
+      {"name": "15 g Koriander", "done": false}
     ],
     "picture": "thai-green-curry-2169631_1280.jpg"
   },
@@ -50,17 +50,17 @@
       "Lorbeerblätter aus der Suppe nehmen. Eine Hälfte des gekochten Gemüses in eine Schüssel umfüllen, das übrig gebliebene Gemüse mit einem Stabmixer fein pürieren. Das nicht pürierte Gemüse wieder in den Suppentopf geben und leicht erhitzen.",
       "Kartoffelsuppe mit Pfeffer, Muskatnuss und wenig Salz abschmecken und die Hälfte der Petersilie einrühren. Suppe auf 4 Teller verteilen, mit der restlichen Petersilie bestreuen und mit dem Vollkornbrot servieren."
     ],
-    "Zutaten": [
-      "1.000 g Kartoffeln",
-      "2 Möhren",
-      "300 g Knollensellerie",
-      "2 Zwiebel",
-      "2 Knoblauchzehen",
-      "1 Bd. Petersilie",
-      "2 EL Rapsöl",
-      "1 L Gemüsebrühe",
-      "2 Lorbeerblätter",
-      "Pfeffer, Salz und Muskatnuss"
+    "Zutate3": [
+      {"name": "1.000 g Kartoffeln", "done": false},
+      {"name": "2 Möhren", "done": false},
+      {"name": "300 g Knollensellerie", "done": false},
+      {"name": "2 Zwiebeln", "done": false},
+      {"name": "2 Knoblauchzehen", "done": false},
+      {"name": "1 Bd. Petersilie", "done": false},
+      {"name": "2 EL Rapsöl", "done": false},
+      {"name": "1 L Gemüsebrühe", "done": false},
+      {"name": "2 Lorbeerblätter", "done": false},
+      {"name": "Pfeffer, Salz und Muskatnuss", "done": false}
     ],
     "picture": "outback-steakhouse-2490458_1280.jpg"
   },
@@ -76,19 +76,19 @@
       "Olivenöl in einem Topf erhitzen. Zwiebel Knoblauch und Hackfleisch zugeben und 5-8 Minuten bei starker Hitze anbraten. Gemüsewürfel hinzugeben und 2-3 Minuten anbraten. Tomatenmark einrühren kurz mitrösten und Brühe und Rotwein angießen. Mit Salz und Pfeffer würzen und die stückigen Tomaten einrühren. Etwa 1 Stunde unter gelegentlichem Rühren köcheln lassen.",
       "Kurz vor Ende der Garzeit Nudeln nach Packungsanleitung in reichlich kochendem Salzwasser al dente garen, in ein Sieb abgießen und abtropfen lassen. Basilikum waschen, trocken schütteln und Blättchen abzupfen. Nudeln auf Teller verteilen, Sauce darüber geben, mit Basilikum garnieren und Parmesan darüber reiben. Sofort servieren."
     ],
-    "Zutaten": [
-      "1 Möhre",
-      "50 g Knollensellerie",
-      "1 Zwiebel",
-      "1 Knoblauchzehe",
-      "2 EL Olivenöl",
-      "400 g Rinderhackfleisch",
-      "1 EL Tomatenmark",
-      "150 ml Fleischbrühe",
-      "100 ml trockener Rotwein",
-      "400 g stückige Tomaten",
-      "400 g Spaghetti",
-      "Salz und Pfeffer"
+    "Zutate4":  [
+      {"name": "1 Möhre", "done": false},
+      {"name": "50 g Knollensellerie", "done": false},
+      {"name": "1 Zwiebel", "done": false},
+      {"name": "1 Knoblauchzehe", "done": false},
+      {"name": "2 EL Olivenöl", "done": false},
+      {"name": "400 g Rinderhackfleisch", "done": false},
+      {"name": "1 EL Tomatenmark", "done": false},
+      {"name": "150 ml Fleischbrühe", "done": false},
+      {"name": "100 ml trockener Rotwein", "done": false},
+      {"name": "400 g stückige Tomaten", "done": false},
+      {"name": "400 g Spaghetti", "done": false},
+      {"name": "Salz und Pfeffer", "done": false}
     ],
     "picture": "spaghetti-787048_1280.jpg"
   }

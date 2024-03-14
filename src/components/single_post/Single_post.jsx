@@ -27,6 +27,7 @@ export default function Single_post() {
         <div>
         <Suspense fallback={<div>Loading...</div>}>
           <Zubereitung value={id} />
+          <Zutatenliste/>
         </Suspense>
         </div>
         <div>
