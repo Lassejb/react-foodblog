@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import Zutaten from './Zutaten';
-import textData from 'C:/Users/lenas/Documents/LENA/Uni/Semester 3/BSI 1/Ordner/react-foodblog/src/assets/text.json';
+import textData from '../../assets/text.json';
 
 const Zutatenliste = () => {
   const [zutaten, setZutaten] = useState([]);

@@ -28,11 +28,10 @@ export default function Single_post() {
         </div>
         <div>
         <Suspense fallback={<div>Loading...</div>}>
-          <Zutatenliste/>
           <Zubereitung value={id} />
         </Suspense>
         </div>
-        <div></div>
+        <div> <Zutatenliste/> </div>
       </div>
     </div>
   );
