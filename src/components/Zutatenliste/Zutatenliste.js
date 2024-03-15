@@ -29,6 +29,8 @@ const Zutatenliste = () => {
         <h1>Zutatencheck:</h1>
         <h2>Noch benötigte Zutaten: {countOpen()}</h2>
       </div>
+      
+
       {zutaten.map((item, index) => {
         return (
           <Zutaten
