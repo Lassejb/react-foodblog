@@ -1,49 +1,39 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React from 'react';
 import Zutaten from './Zutaten';
 import jsonData from '../../assets/text.json';
 
 const Zutatenliste = ({ value }) => {
 
   const Zutaten2 = jsonData[value].Zutaten;
-
-
-  const [zutaten, setZutaten] = useState([]);
   
-  const countOpen = useCallback(() => {
-    return zutaten.filter(item => !item.done).length;
-  }, [zutaten]);
 
-  useEffect(() => {
-    const fetchZutaten = async () => {
-      try {
-        //const zutatenData = await fetch(htmlData);
-        //const zutatenJson = await zutatenData.json();
-        setZutaten(Zutaten2);
-      } catch (error) {
-        console.error('Fehler beim Laden der Zutaten:', error);
-      }
-    };
+  const durchstreichen = (event) => {
+    const element = event.target;
+    if (element.style.textDecoration === "line-through") {
+      element.style.textDecoration = "none";
+    } else {
+      element.style.textDecoration = "line-through";
+    }
+  };
 
-    fetchZutaten();
-  }, []);
-
-  console.log('Zutaten:', zutaten);
+  console.log('Zutaten:', Zutaten2);
 
   return (
-    <div className ="shadow-sm hover:shadow-lg">
-      <div className = "text-center bg-orange-300 text-3xl py-4 font-semibold">
+    <div>
+      <div>
         <h1>Zutatencheck:</h1>
-        <h2>Noch benötigte Zutaten: {countOpen()}</h2>
       </div>
+      <small>
       {Zutaten2.map((item, index) => {
         return (
           <Zutaten
             key={index}
             description={item.name} 
-            done={item.done}
+            durchstreichen={durchstreichen}
           />
         )
       })}
+      </small>
     </div>
   );
 };

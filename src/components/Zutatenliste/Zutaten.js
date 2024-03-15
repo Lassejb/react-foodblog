@@ -1,38 +1,25 @@
 
 
-import React/*, { useState, useEffect }*/ from 'react';
+import React, { useState /*useEffect*/ } from 'react';
 import '../../assets/text.json'
 
-const Zutaten = ({ description, done }) => {
+const Zutaten = ({ description, done, durchstreichen }) => {
 
-  /*const [zutat, setZutaten] = useState([]);
-  
-   useEffect(() => {
-      setZutaten(zutat);
-    }, []);*/
+  const [isDone, setIsDone] = useState(done);
 
-    const changeZutat = () => {
-      
-      <div 
-        className={done 
-          ? "flex justify-between items-center p-2 bg-green-500"
-          : "flex justify-between items-center p-2 bg-red-500"
-        }
-      ></div>
-    };
-    console.log(description)
-    console.log(done)
+  const toggleDone = () => {
+    setIsDone(!isDone);
+  };
+
 
   return (
     
     <div>
       <div 
-        className={done 
-          ? "flex justify-between items-center p-2 bg-green-500"
-          : "flex justify-between items-center p-2 bg-red-500"
-        }
+          onClick={toggleDone} 
+          style={{ cursor: "pointer" }} 
       >
-        <h1 className = "text-lg cursor-pointer" onClick={changeZutat}>
+        <h1 className="text-lg cursor-pointer" onClick={durchstreichen}>
           {description}
         </h1>
       </div>
