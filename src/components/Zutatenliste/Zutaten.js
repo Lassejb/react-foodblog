@@ -1,7 +1,7 @@
 
 
 import React/*, { useState, useEffect }*/ from 'react';
-import 'C:/Users/lenas/Documents/LENA/Uni/Semester 3/BSI 1/Ordner/react-foodblog/src/assets/text.json'
+import '../../assets/text.json'
 
 const Zutaten = ({ description, done }) => {
 

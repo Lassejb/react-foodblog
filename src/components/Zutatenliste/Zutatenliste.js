@@ -1,6 +1,10 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import Zutaten from './Zutaten';
+<<<<<<< HEAD
 import jsonData from 'C:/Users/lenas/Documents/LENA/Uni/Semester 3/BSI 1/Ordner/react-foodblog/src/assets/text.json';
+=======
+import textData from '../../assets/text.json';
+>>>>>>> be1b9192f9513b4226600a7c194af76ee15c2c0a
 
 const Zutatenliste = () => {
   const [zutaten, setZutaten] = useState([]);
@@ -31,6 +35,8 @@ const Zutatenliste = () => {
         <h1>Zutatencheck:</h1>
         <h2>Noch benötigte Zutaten: {countOpen()}</h2>
       </div>
+      
+
       {zutaten.map((item, index) => {
         return (
           <Zutaten

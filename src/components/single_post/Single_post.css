@@ -15,8 +15,8 @@
 }
 
 .single_post_Image {
-    width: 800px;
-    height: 800px;
+    width: 500px;
+    height: 500px;
     object-fit: cover;
     border-radius: 5px;
     float: left;

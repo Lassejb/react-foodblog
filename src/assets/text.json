@@ -10,7 +10,7 @@
       "Die Brötchen für etwa 10 Minuten im vorgeheizten Backofen backen, bis sie goldbraun sind",
       "Herausnehmen und servieren."
     ],
-    "Zutate1": [
+    "Zutaten": [
       {"name": "6 Sonntagsbrötchen aus der Dose", "done": false},
       {"name": "4 Knoblauchzehen", "done": false},
       {"name": "1 handvoll Petersilie", "done": false},
@@ -29,7 +29,7 @@
       "Öl in einen Heißen Topf geben,Like Chicken bei mittlerer bis hoher Hitze unter häufigem Rühren 2 Minuten unter Rühren rösten. Gemüse dazugeben, mit der Kokosmilch und 200 ml Wasser ablöschen, aufkochenund bei niedriger bis mittlere Hitze mit Deckel 15 Minuten köcheln lassen. Like Chicken zurück in den Topf geben und weitere 5 Minuten ziehen lasen.",
       "Mit Koriander toppen und mit Jasminreis servieren."
     ],
-    "Zutate2": [
+    "Zutaten": [
       {"name": "2 Zwiebeln", "done": false},
       {"name": "225 g Kartoffel", "done": false},
       {"name": "2 EL Erdnussöl", "done": false},
@@ -50,7 +50,7 @@
       "Lorbeerblätter aus der Suppe nehmen. Eine Hälfte des gekochten Gemüses in eine Schüssel umfüllen, das übrig gebliebene Gemüse mit einem Stabmixer fein pürieren. Das nicht pürierte Gemüse wieder in den Suppentopf geben und leicht erhitzen.",
       "Kartoffelsuppe mit Pfeffer, Muskatnuss und wenig Salz abschmecken und die Hälfte der Petersilie einrühren. Suppe auf 4 Teller verteilen, mit der restlichen Petersilie bestreuen und mit dem Vollkornbrot servieren."
     ],
-    "Zutate3": [
+    "Zutaten": [
       {"name": "1.000 g Kartoffeln", "done": false},
       {"name": "2 Möhren", "done": false},
       {"name": "300 g Knollensellerie", "done": false},
@@ -76,7 +76,7 @@
       "Olivenöl in einem Topf erhitzen. Zwiebel Knoblauch und Hackfleisch zugeben und 5-8 Minuten bei starker Hitze anbraten. Gemüsewürfel hinzugeben und 2-3 Minuten anbraten. Tomatenmark einrühren kurz mitrösten und Brühe und Rotwein angießen. Mit Salz und Pfeffer würzen und die stückigen Tomaten einrühren. Etwa 1 Stunde unter gelegentlichem Rühren köcheln lassen.",
       "Kurz vor Ende der Garzeit Nudeln nach Packungsanleitung in reichlich kochendem Salzwasser al dente garen, in ein Sieb abgießen und abtropfen lassen. Basilikum waschen, trocken schütteln und Blättchen abzupfen. Nudeln auf Teller verteilen, Sauce darüber geben, mit Basilikum garnieren und Parmesan darüber reiben. Sofort servieren."
     ],
-    "Zutate4":  [
+    "Zutaten":  [
       {"name": "1 Möhre", "done": false},
       {"name": "50 g Knollensellerie", "done": false},
       {"name": "1 Zwiebel", "done": false},
