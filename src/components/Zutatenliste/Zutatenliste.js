@@ -1,8 +1,12 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import Zutaten from './Zutaten';
-import jsonData from 'C:/Users/lenas/Documents/LENA/Uni/Semester 3/BSI 1/Ordner/react-foodblog/src/assets/text.json';
+import jsonData from '../../assets/text.json';
 
-const Zutatenliste = () => {
+const Zutatenliste = ({ value }) => {
+
+  const Zutaten2 = jsonData[value].Zutaten;
+
+
   const [zutaten, setZutaten] = useState([]);
   
   const countOpen = useCallback(() => {
@@ -14,7 +18,7 @@ const Zutatenliste = () => {
       try {
         //const zutatenData = await fetch(htmlData);
         //const zutatenJson = await zutatenData.json();
-        setZutaten(jsonData);
+        setZutaten(Zutaten2);
       } catch (error) {
         console.error('Fehler beim Laden der Zutaten:', error);
       }
@@ -31,11 +35,11 @@ const Zutatenliste = () => {
         <h1>Zutatencheck:</h1>
         <h2>Noch benötigte Zutaten: {countOpen()}</h2>
       </div>
-      {zutaten.map((item, index) => {
+      {Zutaten2.map((item, index) => {
         return (
           <Zutaten
             key={index}
-            description={item.description} 
+            description={item.name} 
             done={item.done}
           />
         )

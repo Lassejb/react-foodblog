@@ -12,16 +12,24 @@ const Zutaten = ({ description, done }) => {
     }, []);*/
 
     const changeZutat = () => {
-      console.log("hallo");
+      
+      <div 
+        className={done 
+          ? "flex justify-between items-center p-2 bg-green-500"
+          : "flex justify-between items-center p-2 bg-red-500"
+        }
+      ></div>
     };
+    console.log(description)
+    console.log(done)
 
   return (
+    
     <div>
       <div 
-        className={
-          done 
-            ? "flex justify-between items-center p-2 bg-green-500"
-            : "flex justify-between items-center p-2 bg-red-500"
+        className={done 
+          ? "flex justify-between items-center p-2 bg-green-500"
+          : "flex justify-between items-center p-2 bg-red-500"
         }
       >
         <h1 className = "text-lg cursor-pointer" onClick={changeZutat}>

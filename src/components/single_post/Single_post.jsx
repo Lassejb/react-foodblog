@@ -2,12 +2,10 @@ import React, { lazy, Suspense } from "react";
 import "./Single_post.css";
 import { useParams } from "react-router-dom";
 
-import Zutatenliste from "../Zutatenliste/Zutatenliste";
-import Zutaten from "../Zutatenliste/Zutaten";
-
 import jsonData from "../../assets/text.json";
 
 const Zubereitung = lazy(() => import("../Zubereitung/Zubereitung"));
+const Zutatenliste = lazy(() => import("../Zutatenliste/Zutatenliste"));
 
 export default function Single_post() {
   const { id } = useParams();
@@ -31,7 +29,11 @@ export default function Single_post() {
           <Zubereitung value={id} />
         </Suspense>
         </div>
-        <div> <Zutatenliste/> </div>
+        <div>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Zutatenliste value={id} />
+        </Suspense>
+        </div>
       </div>
     </div>
   );
