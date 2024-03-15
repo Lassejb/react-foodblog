@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import Zutaten from './Zutaten';
-import textData from 'C:/Users/lenas/Documents/LENA/Uni/Semester 3/BSI 1/Ordner/react-foodblog/src/assets/text.json';
+import jsonData from 'C:/Users/lenas/Documents/LENA/Uni/Semester 3/BSI 1/Ordner/react-foodblog/src/assets/text.json';
 
 const Zutatenliste = () => {
   const [zutaten, setZutaten] = useState([]);
@@ -12,9 +12,9 @@ const Zutatenliste = () => {
   useEffect(() => {
     const fetchZutaten = async () => {
       try {
-        const zutatenData = await fetch(textData);
-        const zutatenJson = await zutatenData.json();
-        setZutaten(zutatenJson);
+        //const zutatenData = await fetch(htmlData);
+        //const zutatenJson = await zutatenData.json();
+        setZutaten(jsonData);
       } catch (error) {
         console.error('Fehler beim Laden der Zutaten:', error);
       }
@@ -22,6 +22,8 @@ const Zutatenliste = () => {
 
     fetchZutaten();
   }, []);
+
+  console.log('Zutaten:', zutaten);
 
   return (
     <div className ="shadow-sm hover:shadow-lg">
@@ -34,14 +36,13 @@ const Zutatenliste = () => {
           <Zutaten
             key={index}
             description={item.description} 
-            done={item.done}>
-          </Zutaten>
+            done={item.done}
+          />
         )
       })}
-
     </div>
-  )
-}
+  );
+};
 
 export default Zutatenliste;
 
