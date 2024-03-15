@@ -43,4 +43,10 @@
   .recipe-card:hover .recipe-title {
     color: #4caf50;
   }
+
+  .recipes-Zutaten {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
   

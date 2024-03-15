@@ -1,5 +1,3 @@
-
-
 import React, { useState /*useEffect*/ } from 'react';
 import '../../assets/text.json'
 
@@ -10,7 +8,6 @@ const Zutaten = ({ description, done, durchstreichen }) => {
   const toggleDone = () => {
     setIsDone(!isDone);
   };
-
 
   return (
     
